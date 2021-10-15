@@ -1,16 +1,38 @@
 /*Especificidad: 001*/
 body {
-  font-family: Tahoma, sans-serif;
-  color: #818181;
-  background-color: #fff;
+  font-family: Andale Mono, monospace;
+  color: #000000;
+  background-color: #00DAF6;
   }
-/*Especificidad: 001*/
-h1 {
+ /*Especificidad: 001*/
+ h1 {
   color: #fff;    
-  background-color:#FF5733; 
+  background-color:#000000; 
   text-transform: uppercase;
-  padding: 2em; 
+  padding: 2em; /* espacio entre elemento y su borde, de los h1 titulos*/
   text-align: center;     
   }
-
-
+  /*Especificidad: 001*/
+  table {
+	border-collapse: collapse;
+	caption-side: top;
+  }
+  /*Especificidad: 001*/
+  tr, td, th{ border: 2px solid black;}
+  /*Especificidad: 001*/
+  ol {
+  list-style-type: upper-roman;
+  }
+  /*Especificidad: 001*/
+  li {
+  line-height: 1.5;
+  }
+  /*Especificidad: 001*/
+  p {
+  line-height: 1.5;
+  border: 2px solid black;
+  padding: .2em;
+  }
+  
+  
+  
